@@ -5,6 +5,9 @@ import java.net.UnknownHostException;
 import java.util.Arrays;
 import java.util.Date;
 
+import javax.mail.MessagingException;
+import javax.mail.internet.AddressException;
+
 //import javax.mail.MessagingException;
 //import javax.mail.internet.AddressException;
 
@@ -20,8 +23,10 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.Markup;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
+import com.w2a.APITestingFrameWork.Utilities.MonitoringMail;
 //import com.w2a.APITestingFramework.utilities.MonitoringMail;
 //import com.w2a.APITestingFramework.utilities.TestConfig;
+import com.w2a.APITestingFrameWork.Utilities.TestConfig;
 
 
 
@@ -32,9 +37,10 @@ public class ExtentListeners implements ITestListener, ISuiteListener {
 	static String fileName = "Extent_" + d.toString().replace(":", "_").replace(" ", "_") + ".html";
 
 	private static ExtentReports extent = ExtentManager.createInstance(System.getProperty("user.dir")+"\\reports\\"+fileName);
+	static String  messageBody;
 	
 	public static ThreadLocal<ExtentTest> testReport = new ThreadLocal<ExtentTest>();
-	static String messageBody;
+
 
 	public void onTestStart(ITestResult result) {
 		ExtentTest test = extent.createTest(result.getTestClass().getName()+"     @TestCase : "+result.getMethod().getMethodName());
@@ -98,21 +104,27 @@ public class ExtentListeners implements ITestListener, ISuiteListener {
 	}
 
 	public void onFinish(ISuite suite) {
+		MonitoringMail mail=new MonitoringMail();
+		
+		try {
+			 messageBody="http://"+InetAddress.getLocalHost().getHostAddress()+":8080/job/APITestingFrameWork/Extent_20Report/" +fileName;
+		} catch (UnknownHostException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		try {
+			mail.sendMail(TestConfig.server, TestConfig.from, TestConfig.to, TestConfig.subject, messageBody);
+		} catch (AddressException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (MessagingException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
 
-		/*
-		 * try { messageBody = "http://"+InetAddress.getLocalHost().getHostAddress()+
-		 * ":8080/job/APITestingFramework/Extent_20Reports/"+fileName; } catch
-		 * (UnknownHostException e) { // TODO Auto-generated catch block
-		 * e.printStackTrace(); }
-		 * 
-		 * MonitoringMail mail = new MonitoringMail(); try {
-		 * mail.sendMail(TestConfig.server, TestConfig.from, TestConfig.to,
-		 * TestConfig.subject, messageBody); } catch (AddressException e) { // TODO
-		 * Auto-generated catch block e.printStackTrace(); } catch (MessagingException
-		 * e) { // TODO Auto-generated catch block e.printStackTrace(); }
-		 * 
-		 */
+		
 	}
 
 }
