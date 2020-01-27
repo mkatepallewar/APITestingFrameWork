@@ -1,0 +1,424 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 62, Failures: 60, Errors: 0, Skipped: 0, Time elapsed: 8.76 sec <<< FAILURE! - in TestSuite
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.862 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.862 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.863 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.863 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.084 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.688 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.007 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.008 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.058 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.674 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.008 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.02 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.058 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.664 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.015 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.011 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.011 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.029 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.036 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.686 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.027 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.028 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.683 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.685 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.686 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.693 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.693 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.694 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.7 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.729 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.763 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+
+deleteCustomer(com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest)  Time elapsed: 0.796 sec  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+

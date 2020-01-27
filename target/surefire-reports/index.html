@@ -1,0 +1,2276 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 60 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Users\Manish_Katepallewar\eclipse-workspace\APITestingFrameWork\src\test\resources\runner\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">62 methods, 60 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjaUnTdtU117o})">deleteCustomer({id=cus_GcjaUnTdtU117o})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjZ6xbBnBFKnD})">deleteCustomer({id=cus_GcjZ6xbBnBFKnD})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_Gcjgag86iK1uyt})">deleteCustomer({id=cus_Gcjgag86iK1uyt})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjWIgOAYBw8oy})">deleteCustomer({id=cus_GcjWIgOAYBw8oy})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjSA48sj0wohU})">deleteCustomer({id=cus_GcjSA48sj0wohU})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjN8qKlmJEfn8})">deleteCustomer({id=cus_GcjN8qKlmJEfn8})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjkQZoUVHI2PG})">deleteCustomer({id=cus_GcjkQZoUVHI2PG})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjYMIPLIc8sOK})">deleteCustomer({id=cus_GcjYMIPLIc8sOK})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjWEj5GQjaY4F})">deleteCustomer({id=cus_GcjWEj5GQjaY4F})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjjOofI12TIt8})">deleteCustomer({id=cus_GcjjOofI12TIt8})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjlFEiUufsYq9})">deleteCustomer({id=cus_GcjlFEiUufsYq9})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjesVLlKcoMAJ})">deleteCustomer({id=cus_GcjesVLlKcoMAJ})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjLdwHHpHNQTI})">deleteCustomer({id=cus_GcjLdwHHpHNQTI})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjhicS3iHs7uR})">deleteCustomer({id=cus_GcjhicS3iHs7uR})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_Gcj0mCY4pXiGn4})">deleteCustomer({id=cus_Gcj0mCY4pXiGn4})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjQHseen0cq4o})">deleteCustomer({id=cus_GcjQHseen0cq4o})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjcFR7PGISiIW})">deleteCustomer({id=cus_GcjcFR7PGISiIW})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjXiFgFehUTsQ})">deleteCustomer({id=cus_GcjXiFgFehUTsQ})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjSJoeziCZyQ0})">deleteCustomer({id=cus_GcjSJoeziCZyQ0})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjVyJwB07e8bi})">deleteCustomer({id=cus_GcjVyJwB07e8bi})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjUPvmxjqJMtD})">deleteCustomer({id=cus_GcjUPvmxjqJMtD})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjkV7k16XhBUt})">deleteCustomer({id=cus_GcjkV7k16XhBUt})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjTMS1rqtrCTY})">deleteCustomer({id=cus_GcjTMS1rqtrCTY})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjcKULB7fKrjI})">deleteCustomer({id=cus_GcjcKULB7fKrjI})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjdzxxMsNY3FW})">deleteCustomer({id=cus_GcjdzxxMsNY3FW})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjYWbI3QUfBGV})">deleteCustomer({id=cus_GcjYWbI3QUfBGV})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_Gcj0jnTX4syFxH})">deleteCustomer({id=cus_Gcj0jnTX4syFxH})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjbaxHtiKpFYB})">deleteCustomer({id=cus_GcjbaxHtiKpFYB})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjJplT7RTXlxC})">deleteCustomer({id=cus_GcjJplT7RTXlxC})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_Gcjbe2BkAuPtcP})">deleteCustomer({id=cus_Gcjbe2BkAuPtcP})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjQEK0xOW4vD3})">deleteCustomer({id=cus_GcjQEK0xOW4vD3})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjdxKGoXZP2nl})">deleteCustomer({id=cus_GcjdxKGoXZP2nl})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjfxB74Mn1dWi})">deleteCustomer({id=cus_GcjfxB74Mn1dWi})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_Gcji4OuKIU1eww})">deleteCustomer({id=cus_Gcji4OuKIU1eww})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjMHN6jaNCMqI})">deleteCustomer({id=cus_GcjMHN6jaNCMqI})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjXs1Qvi65wXV})">deleteCustomer({id=cus_GcjXs1Qvi65wXV})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjPdKxA3PahN5})">deleteCustomer({id=cus_GcjPdKxA3PahN5})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjJRjWiZdT3VR})">deleteCustomer({id=cus_GcjJRjWiZdT3VR})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjR69EWPhfCcC})">deleteCustomer({id=cus_GcjR69EWPhfCcC})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjlTIGSiciDgV})">deleteCustomer({id=cus_GcjlTIGSiciDgV})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjKoUnQzk24YV})">deleteCustomer({id=cus_GcjKoUnQzk24YV})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjR70kCLBFTiU})">deleteCustomer({id=cus_GcjR70kCLBFTiU})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjMgo17U4k6K9})">deleteCustomer({id=cus_GcjMgo17U4k6K9})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjgTfn4wb2Dpf})">deleteCustomer({id=cus_GcjgTfn4wb2Dpf})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjhFl9iiu1T09})">deleteCustomer({id=cus_GcjhFl9iiu1T09})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjPAYQst2W7L3})">deleteCustomer({id=cus_GcjPAYQst2W7L3})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_Gcjj6IR51nWPAT})">deleteCustomer({id=cus_Gcjj6IR51nWPAT})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjUcz5lmCErfe})">deleteCustomer({id=cus_GcjUcz5lmCErfe})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjL5ILwhY7wbc})">deleteCustomer({id=cus_GcjL5ILwhY7wbc})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjilaP4MoD0Zf})">deleteCustomer({id=cus_GcjilaP4MoD0Zf})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjNtxqsp6tSH4})">deleteCustomer({id=cus_GcjNtxqsp6tSH4})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjK9JbjUDcfGA})">deleteCustomer({id=cus_GcjK9JbjUDcfGA})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjVy0FpWdrRvi})">deleteCustomer({id=cus_GcjVy0FpWdrRvi})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjTHYd0IKXBKE})">deleteCustomer({id=cus_GcjTHYd0IKXBKE})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_Gcjf6B78YY9OmE})">deleteCustomer({id=cus_Gcjf6B78YY9OmE})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjeUe7wGAvvNG})">deleteCustomer({id=cus_GcjeUe7wGAvvNG})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjOFeZfsW3FEe})">deleteCustomer({id=cus_GcjOFeZfsW3FEe})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjOP8IqMeXK5Y})">deleteCustomer({id=cus_GcjOP8IqMeXK5Y})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjZsxLByaQfpz})">deleteCustomer({id=cus_GcjZsxLByaQfpz})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_GcjaT37sU6wGi1})">deleteCustomer({id=cus_GcjaT37sU6wGi1})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.CreateCustomerTest" hash-for-method="validateCreateCustomerAPIWithValidSecretKey({email=trainer@manish1.com, name=manish K, description=Adding manishk1 the first customer in framewo...)">validateCreateCustomerAPIWithValidSecretKey({email=trainer@manish1.com, name=manish K, description=Adding manishk1 the first customer in framewo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.w2a.APITestingFrameWork.TestCases.CreateCustomerTest" hash-for-method="validateCreateCustomerAPIWithValidSecretKey({email=trainer@manish.com&quot;, name=manish, description=Adding the first customer in framework})">validateCreateCustomerAPIWithValidSecretKey({email=trainer@manish.com", name=manish, description=Adding the first customer in framework})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjaUnTdtU117o})">
+                  </a> <!-- deleteCustomer({id=cus_GcjaUnTdtU117o}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjaUnTdtU117o})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjZ6xbBnBFKnD})">
+                  </a> <!-- deleteCustomer({id=cus_GcjZ6xbBnBFKnD}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjZ6xbBnBFKnD})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_Gcjgag86iK1uyt})">
+                  </a> <!-- deleteCustomer({id=cus_Gcjgag86iK1uyt}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_Gcjgag86iK1uyt})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjWIgOAYBw8oy})">
+                  </a> <!-- deleteCustomer({id=cus_GcjWIgOAYBw8oy}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjWIgOAYBw8oy})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjSA48sj0wohU})">
+                  </a> <!-- deleteCustomer({id=cus_GcjSA48sj0wohU}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjSA48sj0wohU})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjN8qKlmJEfn8})">
+                  </a> <!-- deleteCustomer({id=cus_GcjN8qKlmJEfn8}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjN8qKlmJEfn8})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjkQZoUVHI2PG})">
+                  </a> <!-- deleteCustomer({id=cus_GcjkQZoUVHI2PG}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjkQZoUVHI2PG})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjYMIPLIc8sOK})">
+                  </a> <!-- deleteCustomer({id=cus_GcjYMIPLIc8sOK}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjYMIPLIc8sOK})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjWEj5GQjaY4F})">
+                  </a> <!-- deleteCustomer({id=cus_GcjWEj5GQjaY4F}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjWEj5GQjaY4F})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjjOofI12TIt8})">
+                  </a> <!-- deleteCustomer({id=cus_GcjjOofI12TIt8}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjjOofI12TIt8})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjlFEiUufsYq9})">
+                  </a> <!-- deleteCustomer({id=cus_GcjlFEiUufsYq9}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjlFEiUufsYq9})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjesVLlKcoMAJ})">
+                  </a> <!-- deleteCustomer({id=cus_GcjesVLlKcoMAJ}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjesVLlKcoMAJ})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjLdwHHpHNQTI})">
+                  </a> <!-- deleteCustomer({id=cus_GcjLdwHHpHNQTI}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjLdwHHpHNQTI})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjhicS3iHs7uR})">
+                  </a> <!-- deleteCustomer({id=cus_GcjhicS3iHs7uR}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjhicS3iHs7uR})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_Gcj0mCY4pXiGn4})">
+                  </a> <!-- deleteCustomer({id=cus_Gcj0mCY4pXiGn4}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_Gcj0mCY4pXiGn4})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjQHseen0cq4o})">
+                  </a> <!-- deleteCustomer({id=cus_GcjQHseen0cq4o}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjQHseen0cq4o})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjcFR7PGISiIW})">
+                  </a> <!-- deleteCustomer({id=cus_GcjcFR7PGISiIW}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjcFR7PGISiIW})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjXiFgFehUTsQ})">
+                  </a> <!-- deleteCustomer({id=cus_GcjXiFgFehUTsQ}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjXiFgFehUTsQ})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjSJoeziCZyQ0})">
+                  </a> <!-- deleteCustomer({id=cus_GcjSJoeziCZyQ0}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjSJoeziCZyQ0})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjVyJwB07e8bi})">
+                  </a> <!-- deleteCustomer({id=cus_GcjVyJwB07e8bi}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjVyJwB07e8bi})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjUPvmxjqJMtD})">
+                  </a> <!-- deleteCustomer({id=cus_GcjUPvmxjqJMtD}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjUPvmxjqJMtD})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjkV7k16XhBUt})">
+                  </a> <!-- deleteCustomer({id=cus_GcjkV7k16XhBUt}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjkV7k16XhBUt})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjTMS1rqtrCTY})">
+                  </a> <!-- deleteCustomer({id=cus_GcjTMS1rqtrCTY}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjTMS1rqtrCTY})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjcKULB7fKrjI})">
+                  </a> <!-- deleteCustomer({id=cus_GcjcKULB7fKrjI}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjcKULB7fKrjI})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjdzxxMsNY3FW})">
+                  </a> <!-- deleteCustomer({id=cus_GcjdzxxMsNY3FW}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjdzxxMsNY3FW})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjYWbI3QUfBGV})">
+                  </a> <!-- deleteCustomer({id=cus_GcjYWbI3QUfBGV}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjYWbI3QUfBGV})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_Gcj0jnTX4syFxH})">
+                  </a> <!-- deleteCustomer({id=cus_Gcj0jnTX4syFxH}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_Gcj0jnTX4syFxH})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjbaxHtiKpFYB})">
+                  </a> <!-- deleteCustomer({id=cus_GcjbaxHtiKpFYB}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjbaxHtiKpFYB})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjJplT7RTXlxC})">
+                  </a> <!-- deleteCustomer({id=cus_GcjJplT7RTXlxC}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjJplT7RTXlxC})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_Gcjbe2BkAuPtcP})">
+                  </a> <!-- deleteCustomer({id=cus_Gcjbe2BkAuPtcP}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_Gcjbe2BkAuPtcP})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjQEK0xOW4vD3})">
+                  </a> <!-- deleteCustomer({id=cus_GcjQEK0xOW4vD3}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjQEK0xOW4vD3})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjdxKGoXZP2nl})">
+                  </a> <!-- deleteCustomer({id=cus_GcjdxKGoXZP2nl}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjdxKGoXZP2nl})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjfxB74Mn1dWi})">
+                  </a> <!-- deleteCustomer({id=cus_GcjfxB74Mn1dWi}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjfxB74Mn1dWi})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_Gcji4OuKIU1eww})">
+                  </a> <!-- deleteCustomer({id=cus_Gcji4OuKIU1eww}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_Gcji4OuKIU1eww})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjMHN6jaNCMqI})">
+                  </a> <!-- deleteCustomer({id=cus_GcjMHN6jaNCMqI}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjMHN6jaNCMqI})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjXs1Qvi65wXV})">
+                  </a> <!-- deleteCustomer({id=cus_GcjXs1Qvi65wXV}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjXs1Qvi65wXV})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjPdKxA3PahN5})">
+                  </a> <!-- deleteCustomer({id=cus_GcjPdKxA3PahN5}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjPdKxA3PahN5})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjJRjWiZdT3VR})">
+                  </a> <!-- deleteCustomer({id=cus_GcjJRjWiZdT3VR}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjJRjWiZdT3VR})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjR69EWPhfCcC})">
+                  </a> <!-- deleteCustomer({id=cus_GcjR69EWPhfCcC}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjR69EWPhfCcC})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjlTIGSiciDgV})">
+                  </a> <!-- deleteCustomer({id=cus_GcjlTIGSiciDgV}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjlTIGSiciDgV})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjKoUnQzk24YV})">
+                  </a> <!-- deleteCustomer({id=cus_GcjKoUnQzk24YV}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjKoUnQzk24YV})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjR70kCLBFTiU})">
+                  </a> <!-- deleteCustomer({id=cus_GcjR70kCLBFTiU}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjR70kCLBFTiU})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjMgo17U4k6K9})">
+                  </a> <!-- deleteCustomer({id=cus_GcjMgo17U4k6K9}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjMgo17U4k6K9})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjgTfn4wb2Dpf})">
+                  </a> <!-- deleteCustomer({id=cus_GcjgTfn4wb2Dpf}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjgTfn4wb2Dpf})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjhFl9iiu1T09})">
+                  </a> <!-- deleteCustomer({id=cus_GcjhFl9iiu1T09}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjhFl9iiu1T09})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjPAYQst2W7L3})">
+                  </a> <!-- deleteCustomer({id=cus_GcjPAYQst2W7L3}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjPAYQst2W7L3})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_Gcjj6IR51nWPAT})">
+                  </a> <!-- deleteCustomer({id=cus_Gcjj6IR51nWPAT}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_Gcjj6IR51nWPAT})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjUcz5lmCErfe})">
+                  </a> <!-- deleteCustomer({id=cus_GcjUcz5lmCErfe}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjUcz5lmCErfe})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjL5ILwhY7wbc})">
+                  </a> <!-- deleteCustomer({id=cus_GcjL5ILwhY7wbc}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjL5ILwhY7wbc})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjilaP4MoD0Zf})">
+                  </a> <!-- deleteCustomer({id=cus_GcjilaP4MoD0Zf}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjilaP4MoD0Zf})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjNtxqsp6tSH4})">
+                  </a> <!-- deleteCustomer({id=cus_GcjNtxqsp6tSH4}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjNtxqsp6tSH4})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjK9JbjUDcfGA})">
+                  </a> <!-- deleteCustomer({id=cus_GcjK9JbjUDcfGA}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjK9JbjUDcfGA})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjVy0FpWdrRvi})">
+                  </a> <!-- deleteCustomer({id=cus_GcjVy0FpWdrRvi}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjVy0FpWdrRvi})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjTHYd0IKXBKE})">
+                  </a> <!-- deleteCustomer({id=cus_GcjTHYd0IKXBKE}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjTHYd0IKXBKE})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_Gcjf6B78YY9OmE})">
+                  </a> <!-- deleteCustomer({id=cus_Gcjf6B78YY9OmE}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_Gcjf6B78YY9OmE})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjeUe7wGAvvNG})">
+                  </a> <!-- deleteCustomer({id=cus_GcjeUe7wGAvvNG}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjeUe7wGAvvNG})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjOFeZfsW3FEe})">
+                  </a> <!-- deleteCustomer({id=cus_GcjOFeZfsW3FEe}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjOFeZfsW3FEe})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjOP8IqMeXK5Y})">
+                  </a> <!-- deleteCustomer({id=cus_GcjOP8IqMeXK5Y}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjOP8IqMeXK5Y})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjZsxLByaQfpz})">
+                  </a> <!-- deleteCustomer({id=cus_GcjZsxLByaQfpz}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjZsxLByaQfpz})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_GcjaT37sU6wGi1})">
+                  </a> <!-- deleteCustomer({id=cus_GcjaT37sU6wGi1}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_GcjaT37sU6wGi1})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in JSON Response expected [true] but found [false]
+	at com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:39)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.w2a.APITestingFrameWork.TestCases.CreateCustomerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCreateCustomerAPIWithValidSecretKey({email=trainer@manish1.com, name=manish K, description=Adding manishk1 the first customer in framewo...)">
+                  </a> <!-- validateCreateCustomerAPIWithValidSecretKey({email=trainer@manish1.com, name=manish K, description=Adding manishk1 the first customer in framewo...) -->
+                  <span class="method-name">validateCreateCustomerAPIWithValidSecretKey</span>
+                  <span class="parameters">({email=trainer@manish1.com, name=manish K, description=Adding manishk1 the first customer in framework})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCreateCustomerAPIWithValidSecretKey({email=trainer@manish.com&quot;, name=manish, description=Adding the first customer in framework})">
+                  </a> <!-- validateCreateCustomerAPIWithValidSecretKey({email=trainer@manish.com", name=manish, description=Adding the first customer in framework}) -->
+                  <span class="method-name">validateCreateCustomerAPIWithValidSecretKey</span>
+                  <span class="parameters">({email=trainer@manish.com", name=manish, description=Adding the first customer in framework})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Manish_Katepallewar\eclipse-workspace\APITestingFrameWork\src\test\resources\runner\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.w2a.APITestingFrameWork.listeners.ExtentListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;CreateCustomerAPITest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.w2a.APITestingFrameWork.TestCases.CreateCustomerTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- CreateCustomerAPITest --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;DeleteCustomerAPITest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DeleteCustomerAPITest --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">CreateCustomerAPITest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">DeleteCustomerAPITest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(62);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'validateCreateCustomerAPIWithValidSecretKey')
+data.setCell(0, 2, 'com.w2a.APITestingFrameWork.TestCases.CreateCustomerTest')
+data.setCell(0, 3, 1808);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validateCreateCustomerAPIWithValidSecretKey')
+data.setCell(1, 2, 'com.w2a.APITestingFrameWork.TestCases.CreateCustomerTest')
+data.setCell(1, 3, 1768);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'deleteCustomer')
+data.setCell(2, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(2, 3, 951);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'deleteCustomer')
+data.setCell(3, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(3, 3, 866);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'deleteCustomer')
+data.setCell(4, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(4, 3, 866);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'deleteCustomer')
+data.setCell(5, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(5, 3, 866);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'deleteCustomer')
+data.setCell(6, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(6, 3, 864);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'deleteCustomer')
+data.setCell(7, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(7, 3, 863);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'deleteCustomer')
+data.setCell(8, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(8, 3, 861);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'deleteCustomer')
+data.setCell(9, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(9, 3, 860);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'deleteCustomer')
+data.setCell(10, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(10, 3, 839);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'deleteCustomer')
+data.setCell(11, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(11, 3, 801);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'deleteCustomer')
+data.setCell(12, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(12, 3, 800);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'deleteCustomer')
+data.setCell(13, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(13, 3, 799);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'deleteCustomer')
+data.setCell(14, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(14, 3, 796);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'deleteCustomer')
+data.setCell(15, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(15, 3, 796);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'deleteCustomer')
+data.setCell(16, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(16, 3, 795);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'deleteCustomer')
+data.setCell(17, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(17, 3, 793);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'deleteCustomer')
+data.setCell(18, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(18, 3, 790);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'deleteCustomer')
+data.setCell(19, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(19, 3, 788);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'deleteCustomer')
+data.setCell(20, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(20, 3, 788);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'deleteCustomer')
+data.setCell(21, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(21, 3, 787);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'deleteCustomer')
+data.setCell(22, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(22, 3, 785);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'deleteCustomer')
+data.setCell(23, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(23, 3, 784);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'deleteCustomer')
+data.setCell(24, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(24, 3, 783);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'deleteCustomer')
+data.setCell(25, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(25, 3, 781);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'deleteCustomer')
+data.setCell(26, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(26, 3, 780);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'deleteCustomer')
+data.setCell(27, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(27, 3, 777);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'deleteCustomer')
+data.setCell(28, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(28, 3, 775);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'deleteCustomer')
+data.setCell(29, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(29, 3, 775);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'deleteCustomer')
+data.setCell(30, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(30, 3, 774);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'deleteCustomer')
+data.setCell(31, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(31, 3, 773);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'deleteCustomer')
+data.setCell(32, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(32, 3, 773);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'deleteCustomer')
+data.setCell(33, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(33, 3, 773);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'deleteCustomer')
+data.setCell(34, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(34, 3, 773);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'deleteCustomer')
+data.setCell(35, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(35, 3, 773);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'deleteCustomer')
+data.setCell(36, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(36, 3, 773);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'deleteCustomer')
+data.setCell(37, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(37, 3, 772);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'deleteCustomer')
+data.setCell(38, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(38, 3, 770);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'deleteCustomer')
+data.setCell(39, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(39, 3, 769);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'deleteCustomer')
+data.setCell(40, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(40, 3, 767);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'deleteCustomer')
+data.setCell(41, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(41, 3, 766);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'deleteCustomer')
+data.setCell(42, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(42, 3, 766);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'deleteCustomer')
+data.setCell(43, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(43, 3, 765);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'deleteCustomer')
+data.setCell(44, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(44, 3, 765);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'deleteCustomer')
+data.setCell(45, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(45, 3, 765);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'deleteCustomer')
+data.setCell(46, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(46, 3, 764);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'deleteCustomer')
+data.setCell(47, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(47, 3, 764);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'deleteCustomer')
+data.setCell(48, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(48, 3, 763);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'deleteCustomer')
+data.setCell(49, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(49, 3, 763);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'deleteCustomer')
+data.setCell(50, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(50, 3, 761);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'deleteCustomer')
+data.setCell(51, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(51, 3, 760);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'deleteCustomer')
+data.setCell(52, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(52, 3, 760);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'deleteCustomer')
+data.setCell(53, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(53, 3, 760);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'deleteCustomer')
+data.setCell(54, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(54, 3, 759);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'deleteCustomer')
+data.setCell(55, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(55, 3, 759);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'deleteCustomer')
+data.setCell(56, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(56, 3, 759);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'deleteCustomer')
+data.setCell(57, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(57, 3, 759);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'deleteCustomer')
+data.setCell(58, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(58, 3, 756);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'deleteCustomer')
+data.setCell(59, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(59, 3, 754);
+data.setCell(60, 0, 60)
+data.setCell(60, 1, 'deleteCustomer')
+data.setCell(60, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(60, 3, 751);
+data.setCell(61, 0, 61)
+data.setCell(61, 1, 'deleteCustomer')
+data.setCell(61, 2, 'com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest')
+data.setCell(61, 3, 748);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 50 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.w2a.APITestingFrameWork.TestCases.CreateCustomerTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateCreateCustomerAPIWithValidSecretKey({email=trainer@manish.com", name=manish, description=Adding the first customer in framework})</span>
+                <span class="method-start">406 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateCreateCustomerAPIWithValidSecretKey({email=trainer@manish1.com, name=manish K, description=Adding manishk1 the first customer in framewo...)</span>
+                <span class="method-start">406 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.w2a.APITestingFrameWork.TestCases.DeleteCustomerTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjlFEiUufsYq9})</span>
+                <span class="method-start">2514 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjlTIGSiciDgV})</span>
+                <span class="method-start">2514 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjkQZoUVHI2PG})</span>
+                <span class="method-start">2515 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjkV7k16XhBUt})</span>
+                <span class="method-start">2515 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjjOofI12TIt8})</span>
+                <span class="method-start">2515 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_Gcjj6IR51nWPAT})</span>
+                <span class="method-start">2515 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjilaP4MoD0Zf})</span>
+                <span class="method-start">2515 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjhicS3iHs7uR})</span>
+                <span class="method-start">2515 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_Gcji4OuKIU1eww})</span>
+                <span class="method-start">2515 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjhFl9iiu1T09})</span>
+                <span class="method-start">2515 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjfxB74Mn1dWi})</span>
+                <span class="method-start">3377 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_Gcjf6B78YY9OmE})</span>
+                <span class="method-start">3377 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjgTfn4wb2Dpf})</span>
+                <span class="method-start">3377 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_Gcjgag86iK1uyt})</span>
+                <span class="method-start">3377 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjesVLlKcoMAJ})</span>
+                <span class="method-start">3379 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjeUe7wGAvvNG})</span>
+                <span class="method-start">3380 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjdzxxMsNY3FW})</span>
+                <span class="method-start">3382 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjdxKGoXZP2nl})</span>
+                <span class="method-start">3382 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjcKULB7fKrjI})</span>
+                <span class="method-start">3382 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjcFR7PGISiIW})</span>
+                <span class="method-start">3467 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjbaxHtiKpFYB})</span>
+                <span class="method-start">4154 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_Gcjbe2BkAuPtcP})</span>
+                <span class="method-start">4157 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjaUnTdtU117o})</span>
+                <span class="method-start">4157 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjZ6xbBnBFKnD})</span>
+                <span class="method-start">4163 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjaT37sU6wGi1})</span>
+                <span class="method-start">4163 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjZsxLByaQfpz})</span>
+                <span class="method-start">4164 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjYWbI3QUfBGV})</span>
+                <span class="method-start">4171 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjYMIPLIc8sOK})</span>
+                <span class="method-start">4174 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjXiFgFehUTsQ})</span>
+                <span class="method-start">4182 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjXs1Qvi65wXV})</span>
+                <span class="method-start">4241 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjWEj5GQjaY4F})</span>
+                <span class="method-start">4915 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjWIgOAYBw8oy})</span>
+                <span class="method-start">4923 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjVy0FpWdrRvi})</span>
+                <span class="method-start">4943 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjVyJwB07e8bi})</span>
+                <span class="method-start">4946 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjUPvmxjqJMtD})</span>
+                <span class="method-start">4948 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjUcz5lmCErfe})</span>
+                <span class="method-start">4948 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjTHYd0IKXBKE})</span>
+                <span class="method-start">4948 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjTMS1rqtrCTY})</span>
+                <span class="method-start">4949 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjSA48sj0wohU})</span>
+                <span class="method-start">4954 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjSJoeziCZyQ0})</span>
+                <span class="method-start">5012 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjR70kCLBFTiU})</span>
+                <span class="method-start">5676 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjR69EWPhfCcC})</span>
+                <span class="method-start">5691 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjQHseen0cq4o})</span>
+                <span class="method-start">5702 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjQEK0xOW4vD3})</span>
+                <span class="method-start">5702 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjPAYQst2W7L3})</span>
+                <span class="method-start">5702 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjPdKxA3PahN5})</span>
+                <span class="method-start">5708 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjOFeZfsW3FEe})</span>
+                <span class="method-start">5708 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjOP8IqMeXK5Y})</span>
+                <span class="method-start">5708 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjN8qKlmJEfn8})</span>
+                <span class="method-start">5737 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjNtxqsp6tSH4})</span>
+                <span class="method-start">5773 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjMgo17U4k6K9})</span>
+                <span class="method-start">6459 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjMHN6jaNCMqI})</span>
+                <span class="method-start">6468 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjL5ILwhY7wbc})</span>
+                <span class="method-start">6469 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjLdwHHpHNQTI})</span>
+                <span class="method-start">6476 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjKoUnQzk24YV})</span>
+                <span class="method-start">6477 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjK9JbjUDcfGA})</span>
+                <span class="method-start">6482 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjJplT7RTXlxC})</span>
+                <span class="method-start">6483 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_GcjJRjWiZdT3VR})</span>
+                <span class="method-start">6513 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_Gcj0jnTX4syFxH})</span>
+                <span class="method-start">6542 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_Gcj0mCY4pXiGn4})</span>
+                <span class="method-start">6548 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">testDown</span>
+                <span class="method-start">7441 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
